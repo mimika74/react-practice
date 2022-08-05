@@ -1,0 +1,20 @@
+:root {
+  --bg-color: #fff;
+  --text-color: rgb(19, 2, 24);
+  --header-bg-color: #eee;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--header-bg-color);
+}
+
+body.dark-theme {
+  --bg-color:  #333;
+  --text-color:  #ddd;
+  --header-bg-color:  #222;
+}

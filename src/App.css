@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --bg-color: #fff;
+  --text-color: #333;
+  --header-bg-color: #eee;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--header-bg-color);
+}
